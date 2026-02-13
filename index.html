@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Portfolio | Creative Director</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+
+            <a class="logo" href="#">
+                <img src="./gold.webp" alt="" width="160px">
+            </a>
+
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <ul class="contact">
+                    <li><a href=""> <span class="material-icons">add_call</span> 1234567890</a></li>
+                </ul>
+            </nav>
+
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+    </header>
+
+
+
+
+
+
+
+
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-slider">
+
+                <!-- Slide 1 -->
+                <div class="container hero-slide active">
+                    <h4>Available for Projects</h4>
+                    <h1>Designing Digital <br> Experiences that <span>Matter.</span></h1>
+                    <p>I help brands grow by creating beautiful, functional websites and digital products.</p>
+                    <a href="#portfolio" class="btn">View Portfolio</a>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="container hero-slide">
+                    <h4>Creative Developer</h4>
+                    <h1>Building Modern <br> Web Solutions <span>Today.</span></h1>
+                    <p>I create fast, responsive, and scalable web applications for modern businesses.</p>
+                    <a href="#contact" class="btn">Hire Me</a>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+        <section id="about" class="about">
+            <div class="container grid">
+                <div class="about-img">
+                    <img src="./m3-testi.webp" alt="Profile">
+                </div>
+                <div class="about-text">
+                    <h2>Driven by Passion, <br> Defined by Results.</h2>
+                    <p>With over 8 years of experience, I specialize in UI/UX design and Frontend development. My
+                        approach is simple: understand the user, solve the problem, and make it look stunning.</p>
+                    <div class="skills">
+                        <span>UI/UX Design</span> <span>React.js</span> <span>Webflow</span> <span>Branding</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-title">
+                    <h2>My Expertise</h2>
+                </div>
+
+                <div class="service-grid">
+
+                    <div class="s-card">
+                        <div class="card-front">
+                            <i class="fas fa-layer-group"></i>
+                            <h3>Product Design</h3>
+                        </div>
+                        <div class="card-overlay">
+                            <p>End-to-end design for mobile apps and complex SaaS platforms.</p>
+                        </div>
+                    </div>
+
+                    <div class="s-card">
+                        <div class="card-front">
+                            <i class="fas fa-code"></i>
+                            <h3>Development</h3>
+                        </div>
+                        <div class="card-overlay">
+                            <p>High-performance, responsive websites built with modern tech stacks.</p>
+                        </div>
+                    </div>
+
+                    <div class="s-card">
+                        <div class="card-front">
+                            <i class="fas fa-magic"></i>
+                            <h3>Brand Strategy</h3>
+                        </div>
+                        <div class="card-overlay">
+                            <p>Defining visual identities that resonate with your target audience.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>My Work</h2>
+                </div>
+
+                <!-- Filter Buttons -->
+                <div class="portfolio-filters">
+                    <button class="active" data-filter="all">All</button>
+                    <button data-filter="web">Web</button>
+                    <button data-filter="ui">UI/UX</button>
+                    <button data-filter="mobile">Mobile</button>
+                </div>
+
+                <!-- Portfolio Grid -->
+                <div class="portfolio-grid">
+
+                    <div class="p-card web">
+                        <div class="p-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="p-overlay">
+                            <h3>Business Website</h3>
+                            <p>Responsive React Website</p>
+                            <span>React • CSS • API</span>
+                        </div>
+                    </div>
+
+                    <div class="p-card ui">
+                        <div class="p-icon">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                        <div class="p-overlay">
+                            <h3>UI Dashboard</h3>
+                            <p>Modern SaaS Interface</p>
+                            <span>Figma • UX Research</span>
+                        </div>
+                    </div>
+
+                    <div class="p-card mobile">
+                        <div class="p-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="p-overlay">
+                            <h3>Mobile App</h3>
+                            <p>Fitness Tracking App</p>
+                            <span>React Native</span>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="portfolio-marquee">
+                    <div class="marquee-track">
+
+                        <div class="marquee-content">
+                            <!-- icons -->
+                            <i class="fab fa-react"></i>
+                            <i class="fab fa-js"></i>
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3-alt"></i>
+                            <i class="fab fa-figma"></i>
+                            <i class="fab fa-node-js"></i>
+                            <i class="fab fa-vuejs"></i>
+                            <i class="fab fa-angular"></i>
+                            <i class="fab fa-bootstrap"></i>
+                            <i class="fab fa-sass"></i>
+                            <i class="fab fa-tailwindcss"></i>
+                            <i class="fab fa-github"></i>
+                            <i class="fab fa-git-alt"></i>
+                            <i class="fab fa-python"></i>
+                            <i class="fab fa-php"></i>
+                            <i class="fab fa-java"></i>
+                            <i class="fab fa-laravel"></i>
+                            <i class="fab fa-wordpress"></i>
+                            <i class="fas fa-database"></i>
+                        </div>
+
+                        <!-- DUPLICATE (REQUIRED) -->
+                        <div class="marquee-content">
+                            <!-- same icons again -->
+                            <i class="fab fa-react"></i>
+                            <i class="fab fa-js"></i>
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3-alt"></i>
+                            <i class="fab fa-figma"></i>
+                            <i class="fab fa-node-js"></i>
+                            <i class="fab fa-vuejs"></i>
+                            <i class="fab fa-angular"></i>
+                            <i class="fab fa-bootstrap"></i>
+                            <i class="fab fa-sass"></i>
+                            <i class="fab fa-tailwindcss"></i>
+                            <i class="fab fa-github"></i>
+                            <i class="fab fa-git-alt"></i>
+                            <i class="fab fa-python"></i>
+                            <i class="fab fa-php"></i>
+                            <i class="fab fa-java"></i>
+                            <i class="fab fa-laravel"></i>
+                            <i class="fab fa-wordpress"></i>
+                            <i class="fas fa-database"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <section id="process" class="process-section">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>How I Work</h2>
+                </div>
+
+                <div class="process-wrapper">
+
+                    <div class="process-step">
+                        <span class="step-number">01</span>
+                        <h3>Research</h3>
+                        <p>Deep analysis of goals, users and competitors.</p>
+                    </div>
+
+                    <div class="process-step">
+                        <span class="step-number">02</span>
+                        <h3>Design</h3>
+                        <p>Wireframes and polished UI design systems.</p>
+                    </div>
+
+                    <div class="process-step">
+                        <span class="step-number">03</span>
+                        <h3>Development</h3>
+                        <p>High-performance scalable solutions.</p>
+                    </div>
+
+                    <div class="process-step">
+                        <span class="step-number">04</span>
+                        <h3>Launch</h3>
+                        <p>Testing, optimization and deployment.</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        <section id="testimonials" class="testimonials">
+            <div class="section-title">
+                <h2>What Clients Say</h2>
+                <p>Real feedback from people I’ve worked with.</p>
+            </div>
+            <div class="container">
+
+                <div class="testimonial-wrapper">
+
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card active">
+                        <div class="t-img">
+                            <img src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe" alt="Client">
+                        </div>
+
+                        <div class="t-content">
+                            <span class="quote">“</span>
+                            <p>
+                                Commodo amet fugiat excepteur sunt qui ea elit cupidatat ullamco
+                                consectetur ipsum elit consequat. Elit sunt proident ea nulla ad
+                                nulla dolore ad pariatur tempor non.
+                            </p>
+                            <h4>Judith Black</h4>
+                            <small>CEO of Workcation</small>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <div class="t-img">
+                            <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" alt="Client">
+                        </div>
+
+                        <div class="t-content">
+                            <span class="quote">“</span>
+                            <p>
+                                Their design quality and development speed exceeded expectations.
+                                The process was smooth and very professional.
+                            </p>
+                            <h4>Sarah James</h4>
+                            <small>Founder of PixelFlow</small>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <div class="t-img">
+                            <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39" alt="Client">
+                        </div>
+
+                        <div class="t-content">
+                            <span class="quote">“</span>
+                            <p>
+                                Amazing experience! The final product was fast, modern and
+                                beautifully crafted.
+                            </p>
+                            <h4>Daniel Lee</h4>
+                            <small>Product Manager, Nova</small>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 4 -->
+                    <div class="testimonial-card">
+                        <div class="t-img">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2" alt="Client">
+                        </div>
+
+                        <div class="t-content">
+                            <span class="quote">“</span>
+                            <p>
+                                Highly recommended for anyone looking for clean UI and strong
+                                frontend performance.
+                            </p>
+                            <h4>Emily Carter</h4>
+                            <small>CEO, BrightTech</small>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+        <section id="stats" class="stats-section">
+            <div class="container stats-grid">
+
+                <!-- LEFT IMAGE -->
+                <div class="stats-image">
+                    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="Working Team">
+                </div>
+
+                <!-- RIGHT CONTENT -->
+                <div class="stats-content">
+                    <span class="stats-subtitle">Our Track Record</span>
+                    <h2>Trusted by clients <br> and businesses worldwide</h2>
+                    <p>
+                        We deliver high-quality digital solutions backed by experience,
+                        performance, and long-term client satisfaction.
+                    </p>
+
+                    <!-- STATS -->
+                    <div class="stats-box">
+
+                        <div class="stat">
+                            <h3><span class="count" data-target="8">0</span>+</h3>
+                            <p>Years Experience</p>
+                        </div>
+
+                        <div class="stat">
+                            <h3><span class="count" data-target="50">0</span>+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+
+                        <div class="stat">
+                            <h3><span class="count" data-target="20">0</span>+</h3>
+                            <p>Happy Clients</p>
+                        </div>
+
+                        <div class="stat">
+                            <h3><span class="count" data-target="99">0</span>%</h3>
+                            <p>Client Satisfaction</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+        <section id="contact" class="contact-section">
+            <div class="container contact-grid">
+
+                <!-- LEFT INFO -->
+                <div class="contact-info">
+                    <h2>Let’s Work Together</h2>
+                    <p>
+                        Have a project in mind or need help with your product?
+                        Feel free to reach out. I’d love to hear from you.
+                    </p>
+
+                    <div class="contact-details">
+                        <p><i class="fas fa-envelope"></i> hello@example.com</p>
+                        <p><i class="fas fa-phone"></i> +91 12345 67890</p>
+                    </div>
+
+                    <div class="contact-socials">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <!-- RIGHT FORM -->
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer id="footer" class="footer">
+            <div class="container footer-grid">
+
+                <!-- Brand -->
+                <div class="footer-brand">
+                    <h3>MyPortfolio</h3>
+                    <p>
+                        Designing and building modern digital experiences
+                        that help brands grow and stand out.
+                    </p>
+                </div>
+
+                <!-- Links -->
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Expertise</a></li>
+                        <li><a href="#portfolio">Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>Email: hello@example.com</p>
+                    <p>Phone: +91 12345 67890</p>
+
+                    <div class="footer-socials">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 MyPortfolio. All rights reserved.</p>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
