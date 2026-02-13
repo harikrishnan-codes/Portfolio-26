@@ -877,23 +877,24 @@ body {
 @media (max-width: 768px) {
 
     .testimonial-wrapper {
-        height: auto;
+        height: 520px; /* fixed height so cards overlap properly */
+        margin-top: -100px;
     }
 
     .testimonial-card {
+        position: absolute;      /* IMPORTANT */
+        inset: 0;
         flex-direction: column;
         text-align: center;
-        padding: 40px 0;
-    }
-
-    .testimonial-card {
-        position: relative;
-        transform: translateY(0);
+        padding: 40px 20px;
         opacity: 0;
+        transform: translateY(60px);
+        transition: all 0.8s ease;
     }
 
     .testimonial-card.active {
         opacity: 1;
+        transform: translateY(0);
     }
 
     .t-img img {
@@ -901,11 +902,17 @@ body {
         height: 140px;
     }
 
+    .t-content {
+        margin-top: 20px;
+    }
+
     .t-content .quote {
         left: 50%;
         transform: translateX(-50%);
+        top: -50px;
     }
 }
+
 
 
 
