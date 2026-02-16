@@ -92,21 +92,7 @@ function showNextTestimonial() {
 setInterval(showNextTestimonial, 4500);
 
 
-// const testimonials = document.querySelectorAll(".testimonial-card");
-// let currentTestimonial = 0;
 
-// function showNextTestimonial() {
-//     testimonials[currentTestimonial].classList.remove("active");
-
-//     currentTestimonial++;
-//     if (currentTestimonial >= testimonials.length) {
-//         currentTestimonial = 0;
-//     }
-
-//     testimonials[currentTestimonial].classList.add("active");
-// }
-
-// setInterval(showNextTestimonial, 4500);
 
 
 

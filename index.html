@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premium Portfolio | Creative Director</title>
+    <link rel="icon" href="./bg remove.webp">
+    <title>Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
     <link
@@ -12,6 +13,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -26,9 +28,9 @@
             <nav class="nav-links">
                 <ul>
                     <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Work</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="./404.html">About</a></li>
+                    <li><a href="./404.html">Work</a></li>
+                    <li><a href="./404.html">Contact</a></li>
                 </ul>
 
                 <ul class="contact">
@@ -54,7 +56,7 @@
 
 
     <main>
-        <section id="hero" class="hero">
+        <section id="hero" class="hero" data-aos="fade-up">
             <div class="hero-slider">
 
                 <!-- Slide 1 -->
@@ -62,7 +64,7 @@
                     <h4>Available for Projects</h4>
                     <h1>Designing Digital <br> Experiences that <span>Matter.</span></h1>
                     <p>I help brands grow by creating beautiful, functional websites and digital products.</p>
-                    <a href="#portfolio" class="btn">View Portfolio</a>
+                    <a href="./404.html" class="btn">View Portfolio</a>
                 </div>
 
                 <!-- Slide 2 -->
@@ -70,7 +72,7 @@
                     <h4>Creative Developer</h4>
                     <h1>Building Modern <br> Web Solutions <span>Today.</span></h1>
                     <p>I create fast, responsive, and scalable web applications for modern businesses.</p>
-                    <a href="#contact" class="btn">Hire Me</a>
+                    <a href="./404.html" class="btn">Hire Me</a>
                 </div>
 
             </div>
@@ -84,7 +86,7 @@
 
 
 
-        <section id="about" class="about">
+        <section id="about" class="about" data-aos="fade-down">
             <div class="container grid">
                 <div class="about-img">
                     <img src="./m3-testi.webp" alt="Profile">
@@ -108,7 +110,7 @@
 
 
 
-        <section id="services" class="services">
+        <section id="services" class="services" data-aos="zoom-in">
             <div class="container">
                 <div class="section-title">
                     <h2>My Expertise</h2>
@@ -161,7 +163,7 @@
 
 
 
-        <section id="portfolio" class="portfolio">
+        <section id="portfolio" class="portfolio" data-aos="fade-left" style="overflow-x: hidden;">
             <div class="container">
 
                 <div class="section-title">
@@ -281,7 +283,7 @@
 
 
 
-        <section id="process" class="process-section">
+        <section id="process" class="process-section" data-aos="fade-right" style="overflow-x: hidden;">
             <div class="container">
 
                 <div class="section-title">
@@ -330,7 +332,7 @@
 
 
 
-        <section id="testimonials" class="testimonials">
+        <section id="testimonials" class="testimonials" data-aos="fade-up">
             <div class="section-title">
                 <h2>What Clients Say</h2>
                 <p>Real feedback from people I’ve worked with.</p>
@@ -342,7 +344,7 @@
                     <!-- Testimonial 1 -->
                     <div class="testimonial-card active">
                         <div class="t-img">
-                            <img src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe" alt="Client">
+                            <img src="./m1-testi.webp" alt="Client">
                         </div>
 
                         <div class="t-content">
@@ -360,7 +362,7 @@
                     <!-- Testimonial 2 -->
                     <div class="testimonial-card">
                         <div class="t-img">
-                            <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" alt="Client">
+                            <img src="./f1-testi.webp" alt="Client">
                         </div>
 
                         <div class="t-content">
@@ -377,7 +379,7 @@
                     <!-- Testimonial 3 -->
                     <div class="testimonial-card">
                         <div class="t-img">
-                            <img src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39" alt="Client">
+                            <img src="./m2-testi.webp" alt="Client">
                         </div>
 
                         <div class="t-content">
@@ -394,7 +396,7 @@
                     <!-- Testimonial 4 -->
                     <div class="testimonial-card">
                         <div class="t-img">
-                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2" alt="Client">
+                            <img src="./f2-testi.webp" alt="Client">
                         </div>
 
                         <div class="t-content">
@@ -421,12 +423,12 @@
 
 
 
-        <section id="stats" class="stats-section">
+        <section id="stats" class="stats-section" data-aos="fade-down">
             <div class="container stats-grid">
 
                 <!-- LEFT IMAGE -->
                 <div class="stats-image">
-                    <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="Working Team">
+                    <img src="./stats.webp" alt="Working Team">
                 </div>
 
                 <!-- RIGHT CONTENT -->
@@ -475,7 +477,7 @@
 
 
 
-        <section id="contact" class="contact-section">
+        <section id="contact" class="contact-section" data-aos="zoom-in">
             <div class="container contact-grid">
 
                 <!-- LEFT INFO -->
@@ -492,14 +494,14 @@
                     </div>
 
                     <div class="contact-socials">
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="./404.html"><i class="fab fa-github"></i></a>
+                        <a href="./404.html"><i class="fab fa-linkedin"></i></a>
+                        <a href="./404.html"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
 
                 <!-- RIGHT FORM -->
-                <form class="contact-form">
+                <form class="contact-form" action="404.html" method="GET">
                     <input type="text" placeholder="Your Name" required>
                     <input type="email" placeholder="Your Email" required>
                     <textarea placeholder="Your Message" rows="5" required></textarea>
@@ -526,7 +528,7 @@
 
                 <!-- Brand -->
                 <div class="footer-brand">
-                    <h3>MyPortfolio</h3>
+                    <a href="#"><img src="./gold.webp" alt="" width="160px"></a>
                     <p>
                         Designing and building modern digital experiences
                         that help brands grow and stand out.
@@ -538,10 +540,10 @@
                     <h4>Quick Links</h4>
                     <ul>
                         <li><a href="#hero">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#services">Expertise</a></li>
-                        <li><a href="#portfolio">Work</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="./404.html">About</a></li>
+                        <li><a href="./404.html">Expertise</a></li>
+                        <li><a href="./404.html">Work</a></li>
+                        <li><a href="./404.html">Contact</a></li>
                     </ul>
                 </div>
 
@@ -552,9 +554,9 @@
                     <p>Phone: +91 12345 67890</p>
 
                     <div class="footer-socials">
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="./404.html"><i class="fab fa-github"></i></a>
+                        <a href="./404.html"><i class="fab fa-linkedin"></i></a>
+                        <a href="./404.html"><i class="fab fa-twitter"></i></a>
                     </div>
                 </div>
 
@@ -565,20 +567,24 @@
             </div>
         </footer>
 
-
-
-
-
-
-
-
-
-
     </main>
 
 
 
     <script src="script.js"></script>
+
+
+    
+
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 900,
+            easing: 'ease-in-out',
+            once: true,   // animation runs only once
+        });
+    </script>
 </body>
 
 </html>
